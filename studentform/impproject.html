@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Form</title>
+  <link rel="stylesheet" href="stdstyles.css">
+</head>
+
+<body>
+ 
+  <h1>STUDENT FORM</h1>
+  <div class="id-box">
+    <div class="whole-box">
+      <div class="name-box">Name</div><div class="parent-box"><input class="name-input" id="name"></div>
+    </div>
+
+    <div class="whole-box">
+      <div class="name-box">Age</div><div class="parent-box"><input class="name-input" id="age"></div>
+    </div>
+
+     <div class="whole-box">
+      <div class="name-box">Gender</div><div class="parent-box">
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male" style="margin-right: 10px;">Male</label>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label>
+    </div>
+    </div>
+
+    <div class="whole-box">
+      <div class="name-box">Course</div><div class="parent-box">
+        <Select id="course">
+        <option></option>
+        <option>Javascript</option>
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>React</option>
+      </Select></div>
+    </div>
+    
+    <div class="whole-box">
+      <div class="name-box">E-mail</div><div class="parent-box"><input class="name-input" id="email"></div>
+    </div>
+    
+    <div class="save-box">
+      <button class="save-button" onclick="resultButton()">Save</button>
+    </div>
+  </div>
+
+  <div class="main-box" id="mainBox">
+    <div class="whle-box">
+    <div class="n-box">Name</div>
+    <div class="n-box">Age</div>
+    <div class="n-box">Gender</div>
+    <div class="n-box" style=" text-align: center;">Course</div>
+    <div class="n-box" style=" width: 140px; height: 25px; text-align: center; padding-left: 1px;">E-mail</div>
+    <div class="n-box" style="width:85px">ACTION</div>
+    </div>
+    <div class="whle-box" id="whleBox">
+    <div class="n-box" id="nBox"></div>
+    <div class="n-box" id="nBox"></div>
+    <div class="n-box" id="nBox"></div>
+    <div class="n-box" id="nBox"></div>
+    <div class="n-box" id="nBox" style=" width: 140px; height: 25px; text-align: center; padding-left: 1px;"></div>
+    <div class="n-box" id="nBox" style="width:85px"><button class="delete-button" onclick="deleteItem(event)">Delete</button></div>
+    </div>
+    
+  
+
+  </div>
+
+  <script src="stdsccript.js">
+     
+  </script>
+</body>
+</html>

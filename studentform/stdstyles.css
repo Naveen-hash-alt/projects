@@ -1,0 +1,121 @@
+
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: 	#e0f7fa;
+    }
+    input{
+      cursor: pointer;
+    }
+    .id-box{
+    border-width: 2px;
+    width: 270px;
+    height:180px;
+    border-color: rgb(119, 118, 118);
+    border-style: solid;
+    padding: 10px;
+    
+    }
+    .name-box{
+      border-width: 2px;
+      border-style: solid;
+      width: 60px;
+      height: 25px;
+      font-size: 18px;
+      padding-left: 11px; 
+      padding-top: 2px;
+      border-color:rgb(205, 201, 201);
+      border-radius: 3px;
+      font-weight: bold;
+    }
+    .parent-box{
+      border-width: 2px;
+      border-style: solid;
+      border-color: rgb(205, 201, 201);
+      width: 190px;
+      height: 27px;
+      border-radius: 3px;
+    }
+    .whole-box{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+     
+    }
+    .name-input{
+      margin-top: 3px;
+      margin-left: 4px;
+      border-width: 2px;
+      border-color: rgb(205, 201, 201);
+      border-style: solid;
+      width: 175px;
+    }
+    select{
+      margin-top: 3px;
+      margin-left: 4px;
+      border-width: 2px;
+      border-color: rgb(205, 201, 201);
+      border-style: solid;
+      width: 182px;
+    }
+    .save-box{
+      border-width: 2px;
+      border-style: solid;
+      border-color: rgb(205, 201, 201);
+      width: 264px;
+      height: 27px;
+      border-radius: 3px;
+    }
+    .save-button{
+      width: 261px;
+      height: 25px;
+      margin-top: 1.3px;
+      margin-left: 2px;
+      background-color: aqua;
+      border-style: solid;
+      border-color: rgb(2, 46, 165);
+      border-width: 1px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    .main-box{
+      border-width: 2px;
+      border-style:solid;
+      border-color:  rgb(119, 118, 118);
+      width: 660px;
+      height: 200px;
+      margin-top: 50px;
+      
+    }
+
+    .n-box{
+      border-width: 2px;
+      border-style: solid;
+      width: 90px;
+      height: 25px;
+      font-size: 18px;
+      padding-left: 11px; 
+      padding-top: 2px;
+      border-color:rgb(205, 201, 201);
+      border-radius: 3px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .whle-box{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .delete-button{
+      background-color: red;
+      color: white;
+      width: 75px;
+      border-style: solid;
+      border-color: black;
+      border-width: 1px;
+      margin-right: 12px;
+      cursor:pointer;
+    }
